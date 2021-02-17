@@ -1,21 +1,25 @@
 import "./styles.css";
 
-// document.getElementById("app").innerHTML = `
-// <h1>Hello Vanilla!</h1>
-// <div>
-//   We use the same configuration as Parcel to bundle this sandbox, you can find more
-//   info about Parcel
-//   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-// </div>
-// `;
 const open = document.getElementById('open');
 const modal_container = document.getElementById('modal_container');
-const close = document.getElementById('close');
+const start = document.getElementById('start');
+const slideshow_container = document.getElementById('slideshow_container')
 
 open.addEventListener('click', () => {
   modal_container.classList.add('show');
 });
 
-close.addEventListener('click', () => {
-  modal_container.classList.remove('show');
+start.addEventListener('click', () => {
+  slideshow_container.classList.add('show');
 });
+
+
+//toggle the modal content from welcome to carousel
+// function toggleModal() {
+//   var modal_container = document.getElementById("modal_container");
+//   if (modal_container).style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
