@@ -1,4 +1,4 @@
-import "./styles.css";
+
 
 const open = document.getElementById('open');
 const modal_container = document.getElementById('modal_container');
