@@ -9,15 +9,22 @@
   <body>
     
     <button id="open">Get Started</button>
+  
     <div class="modal-container" id="modal_container">
       <div class="modal">
-				<h1>Welcome to Livestock City</h1>
-				<p>Your all-in-one toolkit to CONNECT with other farmers, 
-						BUY/SELL in our online marketplace, 
-            and MANAGE your herd.</p>
+    <div>
+        <p class="openingTitle"><span class="welcome" style="padding: 0; margin: 0;">Welcome to </span> <span class="logoText"><br><span style="color: #ef6704 ">LIVESTOCK</span><span stlye="color: #9e9e9e">CITY</span></span></p>
+        <img src="PikPng.com_indian-cow-png_209675.png" style="width: 259px; height: auto;">
+				<p class="initialText">Your all-in-one toolkit to <span class="orangeText">CONNECT</span> with other farmers, <br />
+        <span class="orangeText">BUY/SELL</span> in our online marketplace, <br />
+        and <span class="orangeText">MANAGE</span> your herd. </p>
         <button id="start"> Get Started </button>
-
-<!-- Slideshow container -->
+    </div>
+				
+          
+          
+    <div id="lastSeen">
+        <!-- Slideshow container -->
         <div class="slideshow-container" id="modal_container">
  <!-- Connect Slide -->
           <div class="mySlides">
@@ -35,7 +42,7 @@
               </div>
 <!-- Buy & Sell Slide -->
 <div class="mySlides">
-              <h1>Buy & Sell</h1>
+              <h1>Buy &amp; Sell</h1>
               <p>Browse and search farms by location or livestock type.
                     Connect with other farmers by following their page or 
                     by posting in the LivestockCity forums.</p>
@@ -47,16 +54,13 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-
-
-
-
-
-
         </div>
-      </div>
     </div>
 
+          
+      </div>
+    </div>
+<script src="jquery-3.5.1.min.js"></script>
     <script src="src/index.js"></script>
   </body>
 </html>
