@@ -1,0 +1,45 @@
+.mainDiv {
+  background-color: white;
+}
+
+.header {
+  background-color: #fce2cf;
+  padding: 0.2%;
+}
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+  border-color: #fce2cf;
+  margin: 2%;
+}
+p {
+  margin: 2%;
+}
+h3 {
+  margin: 2%;
+}
+
+/* .wrapper > div {
+  background-color: #fce2cf;
+  border: 5px #ef6704;
+  border: solid;
+  border-radius: 5%;
+  margin: 2%;
+  text-align: center;
+}
+
+.wrapper > div:nth-child(odd) {
+  background-color: #fce2cf;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 50px;
+} */
+
+.wrapper {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-gap: 50px;
+}
